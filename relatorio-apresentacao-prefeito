@@ -1,0 +1,24 @@
+# Clone o repositório para o seu computador
+git clone https://github.com/SEU-USUARIO/relatorio-manutencao-viaria.git
+
+# Acesse o diretório do repositório
+cd relatorio-manutencao-viaria
+
+# Crie um novo arquivo para o relatório. Você pode usar um editor de texto ou um comando.
+# Para Windows:
+echo. > relatorio-apresentacao-prefeito.md
+
+# Para macOS/Linux:
+touch relatorio-apresentacao-prefeito.md
+
+# Edite o arquivo relatorio-apresentacao-prefeito.md e insira o conteúdo do relatório.
+# Você pode usar um editor de texto como o VS Code, Notepad++ ou qualquer outro.
+
+# Adicione o arquivo ao "staging area" do Git
+git add relatorio-apresentacao-prefeito.md
+
+# Faça o commit com uma mensagem descritiva
+git commit -m "Adiciona o relatório de progresso da apresentação ao prefeito"
+
+# Envie o arquivo para o repositório no GitHub
+git push origin main
